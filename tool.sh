@@ -20,7 +20,7 @@ PS1="|DEDSEC TERMINAL|--|\@|--|\d|
  _______|$nick|~# "
 clear
 echo -e "\n"
-     bar=" LOADING "
+     bar=" LOADING dedsec terminal "
      barlenght=${#bar}
      i=0
      while((i<100)); do
@@ -55,6 +55,7 @@ echo -e "\n"
         printf "\e[00;32m\r[%-${barlength}s]\e[00m" "${bar:0:n}"
         ((i += RANDOM%5+2))
         sleep 0.2
+      done
 clear
 figlet DEDSEC
 cowsay -f eyes Dedsec
