@@ -1,5 +1,4 @@
 clear
-
 echo -e "\n"
      bar=" LOADING "
      barlenght=${#bar}
@@ -13,11 +12,6 @@ echo -e "\n"
 clear
 echo What is your name $nick #tulisan keluar
 read nick #membaca yang ditulis
-PS1="|DEDSEC TERMINAL|--|\@|--|\d|
-|
-|
-|
- _______|$nick|~# "
 clear
 echo -e "\n"
      bar=" LOADING dedsec terminal "
@@ -62,3 +56,4 @@ cowsay -f eyes Dedsec
 neofetch
 pwd
 echo your name is $nick
+
