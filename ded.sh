@@ -1,3 +1,16 @@
+clear
+
+echo -e "\n"
+     bar=" LOADING "
+     barlenght=${#bar}
+     i=0
+     while((i<100)); do
+     n=$((i*barlength / 100))
+     printf "\e[00;32m\r[%-${barlength}s]\e[00m" "${bar:0:n}"
+     ((i += RANDOM%5+2))
+      sleep 0.1
+     done
+clear
 echo What is your name $nick #tulisan keluar
 read nick #membaca yang ditulis
 PS1="|DEDSEC TERMINAL|--|\@|--|\d|
@@ -16,6 +29,9 @@ echo -e "\n"
      ((i += RANDOM%5+2))
       sleep 0.1
      done
+clear
+echo wanna start the project #tulisan keluar
+read nick #membaca yang ditulis
 clear
 apt-get update
 apt-get upgrade
@@ -39,7 +55,6 @@ echo -e "\n"
         printf "\e[00;32m\r[%-${barlength}s]\e[00m" "${bar:0:n}"
         ((i += RANDOM%5+2))
         sleep 0.2
-clear
 clear
 figlet DEDSEC
 cowsay -f eyes Dedsec
