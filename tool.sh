@@ -52,8 +52,14 @@ echo -e "\n"
       done
 clear
 figlet DEDSEC
-cowsay -f eyes Dedsec
-neofetch
-pwd
-echo your name is $nick
+echo"(1) Phishing "
+echo"(2) Hack cctv "
+echo"(3) Virus "
+echo"(4) seeker "
+echo"(5) Deface Website"
+read -p "choose one Dedsec tool" pill;
+
+echo
+#batas gan
+git clone https://github.com/
 
